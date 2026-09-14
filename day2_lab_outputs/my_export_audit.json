@@ -1,0 +1,66 @@
+{
+  "archive_name": "mine-yolo.zip",
+  "archive_sha256": "390a86a37515621cc55de5b21e35a5edc87ed8f929c122731597294057c5af91",
+  "class_names": [
+    "car",
+    "truck",
+    "bus",
+    "van"
+  ],
+  "image_ids": [
+    "drive_022",
+    "drive_033",
+    "drive_038",
+    "drive_008"
+  ],
+  "image_count": 4,
+  "object_count": 101,
+  "within_slide_workload_target": false,
+  "coordinate_format": "normalized xywh",
+  "images": {
+    "drive_022": {
+      "width": 640,
+      "height": 640,
+      "object_count": 5,
+      "class_count": {
+        "car": 3,
+        "truck": 1,
+        "bus": 1,
+        "van": 0
+      }
+    },
+    "drive_033": {
+      "width": 640,
+      "height": 640,
+      "object_count": 26,
+      "class_count": {
+        "car": 23,
+        "truck": 1,
+        "bus": 2,
+        "van": 0
+      }
+    },
+    "drive_038": {
+      "width": 640,
+      "height": 640,
+      "object_count": 40,
+      "class_count": {
+        "car": 29,
+        "truck": 2,
+        "bus": 6,
+        "van": 3
+      }
+    },
+    "drive_008": {
+      "width": 640,
+      "height": 640,
+      "object_count": 30,
+      "class_count": {
+        "car": 21,
+        "truck": 1,
+        "bus": 4,
+        "van": 4
+      }
+    }
+  }
+}

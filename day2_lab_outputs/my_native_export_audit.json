@@ -1,0 +1,82 @@
+{
+  "archive_name": "mine-native.zip",
+  "archive_sha256": "62e7a77dcf001a490a87ab4283fa3c552a918c25b67d35838a8df525ae5f33fc",
+  "format": "CVAT for images XML",
+  "class_names": [
+    "car",
+    "truck",
+    "bus",
+    "van"
+  ],
+  "image_ids": [
+    "drive_022",
+    "drive_033",
+    "drive_038",
+    "drive_008"
+  ],
+  "image_count": 4,
+  "object_count": 101,
+  "within_slide_workload_target": false,
+  "required_attributes": [
+    "boundary",
+    "review_state",
+    "visibility"
+  ],
+  "attribute_value_count_by_name": {
+    "visibility": 101,
+    "boundary": 101,
+    "review_state": 101
+  },
+  "images": {
+    "drive_022": {
+      "width": 640,
+      "height": 640,
+      "object_count": 5,
+      "class_count": {
+        "car": 3,
+        "truck": 1,
+        "bus": 1,
+        "van": 0
+      }
+    },
+    "drive_033": {
+      "width": 640,
+      "height": 640,
+      "object_count": 26,
+      "class_count": {
+        "car": 23,
+        "truck": 1,
+        "bus": 2,
+        "van": 0
+      }
+    },
+    "drive_038": {
+      "width": 640,
+      "height": 640,
+      "object_count": 40,
+      "class_count": {
+        "car": 29,
+        "truck": 2,
+        "bus": 6,
+        "van": 3
+      }
+    },
+    "drive_008": {
+      "width": 640,
+      "height": 640,
+      "object_count": 30,
+      "class_count": {
+        "car": 21,
+        "truck": 1,
+        "bus": 4,
+        "van": 4
+      }
+    }
+  },
+  "cross_format_consistency": {
+    "same_annotation_state": true,
+    "matched_box_count": 101,
+    "minimum_cross_format_iou": 0.9998271880225603,
+    "geometry_iou_floor": 0.995
+  }
+}
